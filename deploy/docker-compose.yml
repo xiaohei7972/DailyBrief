@@ -1,0 +1,15 @@
+services:
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_DATABASE: dailybrief
+      MYSQL_USER: dailybrief
+      MYSQL_PASSWORD: dailybrief
+      MYSQL_ROOT_PASSWORD: dailybrief-root
+    ports:
+      - "3306:3306"
+    volumes:
+      - dailybrief_mysql:/var/lib/mysql
+
+volumes:
+  dailybrief_mysql:
