@@ -1,0 +1,27 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java / Maven
+server/target/
+*.log
+
+# Gradle / Android
+.gradle/
+**/build/
+local.properties
+*.jks
+*.keystore
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Misc
+*.tmp
