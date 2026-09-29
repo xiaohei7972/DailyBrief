@@ -37,7 +37,7 @@ jobs:
         run: mvn -B verify
 
       - name: Upload server JAR
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: dailybrief-server
           path: server/target/*.jar
