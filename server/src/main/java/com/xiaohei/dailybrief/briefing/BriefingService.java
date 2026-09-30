@@ -1,4 +1,4 @@
-package com.xiaohei.dailybrief.briefing;
+package io.github.xiaohei7972.dailybrief.briefing;
 
 import java.time.Clock;
 import java.time.LocalDate;
